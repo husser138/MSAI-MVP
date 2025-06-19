@@ -34,12 +34,12 @@ search_api_key="YcMqjxzjE58KpysnSvN3Wz2yX9nWdkY32p5Ww2L7CQAzSeBOgw97"
 index_name = "hsw-rag-1"
 #index_name = "hswazureblob-index"
 
-
 print("openai_end:", openai_endpoint)
 print("search_endpoint:", search_endpoint)
 print("chat_model:", chat_model)
 print("index_name", index_name)
 print("embedding_model:", embedding_model)
+
 
 # 📌 페이지 설정 (가장 첫 줄에서 호출)
 st.set_page_config(page_title="요구사항 & 개발자 통계",layout="wide")
